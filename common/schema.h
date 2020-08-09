@@ -17,6 +17,7 @@ namespace swss {
 #define GB_ASIC_DB      8
 #define GB_COUNTERS_DB  9
 #define GB_FLEX_COUNTER_DB  10
+#define VOQ_DB          11
 
 /***** APPLICATION DATABASE *****/
 
@@ -68,6 +69,8 @@ namespace swss {
 #define APP_STP_PORT_STATE_TABLE_NAME       "STP_PORT_STATE_TABLE"
 #define APP_STP_FASTAGEING_FLUSH_TABLE_NAME "STP_FASTAGEING_FLUSH_TABLE"
 #define APP_STP_BPDU_GUARD_TABLE_NAME       "STP_BPDU_GUARD_TABLE"
+
+#define APP_SYSTEM_PORT_TABLE_NAME          "SYSTEM_PORT_TABLE"
 
 /***** TO BE REMOVED *****/
 
@@ -264,6 +267,12 @@ namespace swss {
 #define CFG_FG_NHG                                  "FG_NHG"
 #define CFG_FG_NHG_PREFIX                           "FG_NHG_PREFIX"
 #define CFG_FG_NHG_MEMBER                           "FG_NHG_MEMBER"
+
+#define CFG_SYSTEM_PORT_TABLE_NAME                  "SYSTEM_PORT"
+#define CFG_VOQ_INBAND_INTERFACE_TABLE_NAME         "VOQ_INBAND_INTERFACE"
+
+#define VOQ_SYSTEM_INTERFACE_TABLE_NAME             "SYSTEM_INTERFACE"
+#define VOQ_SYSTEM_NEIGH_TABLE_NAME                 "SYSTEM_NEIGH"
 
 /***** STATE DATABASE *****/
 
