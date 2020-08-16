@@ -7,8 +7,8 @@
         },
         "redis-voq":{
             "hostname" : "10.0.0.16",
-            "port" : 6379,
-            "unix_socket_path" : "/var/run/redis/redis.sock"
+            "port" : 6380,
+            "unix_socket_path" : "/var/run/redis/redis-voq.sock"
         }
     },
     "DATABASES" : {
