@@ -6,7 +6,7 @@
             "unix_socket_path" : "/var/run/redis/redis.sock"
         },
         "redis-voq":{
-            "hostname" : "10.0.0.16",
+            "hostname" : "240.127.1.1",
             "port" : 6380,
             "unix_socket_path" : "/var/run/redis/redis-voq.sock"
         }
